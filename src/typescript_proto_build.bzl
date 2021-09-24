@@ -323,7 +323,7 @@ def _typescript_proto_library_impl(ctx):
             DeclarationInfo(
                 declarations = dts_outputs,
                 transitive_declarations = transitive_declarations,
-                type_blacklisted_declarations = depset([]),
+                # type_blacklisted_declarations = depset([]),
             ),
             JSNamedModuleInfo(
                 direct_sources = es5_srcs,
